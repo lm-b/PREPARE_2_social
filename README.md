@@ -29,3 +29,15 @@ Best results obtained:
 ### Feature reduction/selection
 
 ### Model efficacy
+
+
+## Code info
+Code was developed using 
+* Windows 10
+* Python 3.8 (Anaconda distribution, Spyder 5.5.1)
+ * NumPy 1.24.3
+ * Pandas 2.03
+ * scikit-learn 1.3.0
+* R 3.6.2 (Rstudio)
+ * ggplot 3.2.1
+ * gridExtra 2.3
