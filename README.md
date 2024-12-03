@@ -16,10 +16,10 @@ code used for the PREPARE Challenge - Phase 2: Model Arena (Social Determinants 
 ## Results
 Best results obtained: 
 * two-year
-  * *test rmse*: *model*: *features*:  
+  * *test rmse*:   ||   *model*:   ||   *features*:  
 * year-and-score
-  * *test rmse*: *model*: *features*:  
+  * *test rmse*:   ||   *model*:   ||   *features*:  
 * score-only
-  * *test rmse*: 40.966  *model*: Lasso  *features*:  feature set reduced by removing features with >80% nan, <4% absolute correlation with target
+  * *test rmse*: 40.966   ||   *model*: Lasso   ||   *features*:  feature set reduced by removing features with >80% nan, <4% absolute correlation with target
 * two_model: 
-  * *test rmse* : 40.8529   *model*: 21-linear SVR | 16-Lasso   *features*:  feature set reduced by removing features with >80% nan, <4% absolute correlation with target
+  * *test rmse* : 40.8529   ||   *model*: 21-linear SVR | 16-Lasso   ||   *features*:  feature set reduced by removing features with >80% nan, <4% absolute correlation with target
