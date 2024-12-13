@@ -17,7 +17,7 @@ code used for the PREPARE Challenge - Phase 2: Model Arena (Social Determinants 
 ## Results
 Best results obtained: 
 * two-year
-  * *test rmse*:   ||   *model*:   ||   *features*:  
+  * *test rmse*: 40.007  ||   *model*: pls+Lasso  ||   *features*:  top 4 features of the decomposed space | all features
 * year-and-score
   * *test rmse*:   ||   *model*:   ||   *features*:  
 * score-only
