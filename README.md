@@ -4,6 +4,7 @@ code used for the PREPARE Challenge - Phase 2: Model Arena (Social Determinants 
 
 ## Files 
 * ViewRawData.R: code written in R using ggplot and gridExtra packages to view relationships between individual features and the target variable (composite cognitive score)
+* HandingTemporalFeaturesandTargets.py: Community code contribution, details different ways to handle survey year and score year to better represent the temporal relationships in training data.
 * scikit_models.py: Code written in python using scikit-learn and supporting packages (e.g. pandas, numpy) to create and train models used in the main file.
 * train_scikit.py: Main training file for scikit-learn (statistical machine learning) models. Cleans raw data, creates train/val splits, and calls training functions from scikit_models.py. Aggregates results, chooses the result with the best rmse and applies it to the test set, then formats the resulting target predictions for submission.
 * manipulateSavedModels.py: File used to extract the features used for each best model and the weights assigned to those features to assess feature importance for interpretation. 
@@ -17,7 +18,7 @@ code used for the PREPARE Challenge - Phase 2: Model Arena (Social Determinants 
 ## Results
 Best results obtained: 
 * two-year
-  * *test rmse*: 40.007  ||   *model*: pls+Lasso  ||   *features*:  top 4 features of the decomposed space | all features
+  * *test rmse*: 39.655  ||   *model*: pls+Lasso  ||   *features*:  top 4 features of the decomposed space | all features
 * year-and-score
   * *test rmse*:   ||   *model*:   ||   *features*:  
 * score-only
